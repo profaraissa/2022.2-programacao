@@ -22,7 +22,7 @@ public class DistanciaPontosCartesianos {
         double diferencaX = pow((xPonto2 - xPonto1), 2);
 
         double diferencaY = pow((yPonto2 - yPonto1), 2);
-
+        //sqrt = rais quadrada
         double distancia = sqrt(diferencaX + diferencaY);
 
         System.out.println("A distância entre os pontos é " + distancia);
